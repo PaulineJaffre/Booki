@@ -1,58 +1,37 @@
 /*Desktop*/
-@media (max-width: 1400px){
+
 
 body {
   font-family: "Raleway";
-  font-weight: 500;
+  font-weight: 400;
+  font-style: normal;
   font-size: 1rem;
   background: white;
-  
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 2%;
   
 }
  
 
-h1{
-  font-family: "Raleway";
+h1, h2{
   font-weight: 700;
   font-size: 1.3rem;
   height: 1.5rem;
-}
-
-h2{
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 1.3rem;
-  height: 1.5rem;
- 
 }
  
 h3{
-  font-family: "raleway";
   font-weight: 700;
-  font-size: 1rem;
-  height: 1.1rem;
   margin: 0;
 }
 
 h4{
-  font-family: "raleway";
   font-weight: 700;
   font-size: 1.1rem;
   height:1.3rem;
   margin: 0;
 }
 
-p {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.2rem;
-  margin: 0;
-  padding: 4px 0 4px 0;
-}
 
 a{
   text-decoration: none;
@@ -133,14 +112,6 @@ header{
 
 form{
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  Width: 3.1em;
-Height:3em;
-
-margin-top: 3%;
-
 }
 
 .searchicon {
@@ -151,41 +122,26 @@ margin-top: 3%;
   align-items: center;
   justify-content: center;
   border-radius: 15px 0 0 15px;
-
   background-color: #F2F2F2;
-
 }
 
 
 
 .searchbar {
- 
-  font-family: "raleway";
   font-weight: 700;
-  font-size: 1.1rem;
-  text-align: center;
-  height: 2.8em;
-
+  font-size: 1rem;
+  padding-left: 15px;
   color: black;
   border: 1px solid #F2F2F2 ;
 }
 
 .searchbutton{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  font-family: "raleway";
   font-weight: 700;
-  font-size: 1.1rem;
-  text-align: center;
+  font-size: 1rem;
   color: white;
   background-color: #0065FC;
-  border: 1px solid #0065FC;
+  border: 1px #0065FC;
   border-radius: 0 15px 15px 0;
-  width: 8.2rem;
-  height: 3rem;
-  left: 21.3rem;
-  top: 12.5rem;
   padding: 15px 16px;
 }
 
@@ -202,7 +158,6 @@ margin-top: 3%;
   flex-direction: row;  
   align-items: center;
   padding: 30px 0;
-  font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 1.1rem;
@@ -211,28 +166,26 @@ margin-top: 3%;
 }
 
 #filtitle{
-  padding: 10px 0 10px 0;
+  padding: 10px 10px 10px 0;
   font-size: 1.1rem;
 }
 
 .filtres{
+  display: flex;
   list-style-type: none;
   padding: 0;
-  
+  margin:0;
 }
 
 
 
 .divfiltre{
-  display: inline;
   box-sizing: border-box;
   border-radius: 25px;
   border: 2px solid #D9D9D9;
   text-align: center;
- margin-left: 2rem;
-  height: 3.1rem;
   padding: 10px 10px;
-  
+  margin: 5px;
 }
 
 .divfiltre:hover{
@@ -290,20 +243,13 @@ justify-content: space-between;
 .hebtitle{
   margin-bottom: 5%;
 }
-.cardheb1{
-  display: flex;
-  
-  justify-content: space-between;
-  align-items: center;
-  
-  margin-bottom: 5%;
-}
 
-.cardheb2{
+.cardheb{
   display: flex;
   
   justify-content: space-between;
   align-items: center;
+  
   margin-bottom: 5%;
 }
 
@@ -328,7 +274,8 @@ justify-content: space-between;
 }
 
 .pheb{
-  padding: 15px;
+  padding: 10px;
+  white-space: nowrap;
 }
 
 
@@ -352,6 +299,7 @@ justify-content: space-between;
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 
@@ -359,7 +307,6 @@ justify-content: space-between;
   margin-bottom: 10%;
   border-radius: 20px;
   object-fit: contain;
-  width: 21.4rem;
   height: 9rem;
   border : 3px solid white;
   background-color: white;
@@ -371,14 +318,12 @@ justify-content: space-between;
 .pright{
   display: inline-block;
   position: absolute;
-  width: 10.5rem;
+  width: 15%;
   padding: 10px 10px;
-
+white-space: normal;
 }
 
-.popicon{
-  padding-top: 30%;
-}
+
 
 .imgpopulaires{
   display: inline-flex;
@@ -399,7 +344,6 @@ Height:100%;
 .cardactivites{
 display: flex;
 justify-content: space-between;
-align-items: center;
 }
 
 
@@ -415,7 +359,7 @@ align-items: center;
   
   object-fit: cover;
   Width:100%;
-Height:445px;
+  Height:445px;
   border-radius: 20px 20px 0 0;
 }
 
@@ -435,11 +379,10 @@ align-items: flex-start;
 }
 
 .footer-col {
- padding-right: 15%;
+ margin-right: auto;
   position: relative;
   display: inline-block;
   
-}
 }
 
 
@@ -449,12 +392,16 @@ align-items: flex-start;
 
 
 body {
-  padding: 0;
+ padding: 0;
   margin-top: 5%;
 }
 
-h1, h2{
-  padding-left: 2%;
+h1{
+  margin-bottom: 40px;
+}
+
+.title{
+  padding: 15px 25px;
 }
 
 /* Navigation bar */
@@ -464,8 +411,6 @@ header{
  text-align: center;
   
 }
-
-
 
 .nav-links {
   display: flex;
@@ -492,6 +437,15 @@ width: 100%;
 
 /*Searchbar*/
 
+form{
+  justify-content: center;
+
+}
+
+.searchbar{
+  width: 50vw;
+}
+
 .searchbutton{
   display: none;
 }
@@ -504,10 +458,6 @@ width: 100%;
   background-color: #0065FC;
   border: 1px solid #0065FC;
   border-radius: 0 15px 15px 0;
-  width: 8.2rem;
-  height: 3rem;
-  left: 21.3rem;
-  top: 12.5rem;
   padding: 15px 16px;
 }
 
@@ -517,7 +467,7 @@ width: 100%;
   display: block;
 }
 #filtitle{
-  display: block;
+  padding-left: 25px;
 }
 .filtres{
   display: flex;
@@ -531,17 +481,26 @@ width: 100%;
   box-sizing: border-box;
   border-radius: 25px;
   border: 2px solid #D9D9D9;
-  text-align: center;
-  Width:43%;
-Height:50px;
-margin-left: 0;
-
+  Width:47%;
+  text-align: left;
+  white-space: nowrap;
 }  
 
 .divfiltre:hover{
   background-color:white;
 }
 
+.iconfiltre{
+  padding-right: 5px;
+}
+
+.divfiltre a{
+  font-size: small;
+}
+
+.info {
+  padding-left: 25px;
+}
 
 /* Hébergements et recherches populaires */
 
@@ -560,18 +519,16 @@ flex-direction:column-reverse;
   padding: 0;
 }
 
+#hebergements h2{
+  padding-left: 25px;
+}
 
-.cardheb1{
+.cardheb{
   display: flex;
   flex-direction: column;
   margin-bottom: 0;
+  width: 100vw;
 }
-
-.cardheb2{
-  display: flex;
-  flex-direction: column;
-}
-
 
 .hebergement-col {
   width: 90%;
@@ -591,11 +548,14 @@ flex-direction:column-reverse;
 
 #populaires {
   border-radius: 0;
-  width: 100%;
+  width: 100vw;
   margin-bottom: 5%;
   padding: 0;
 }
 
+.poptitle{
+  padding: 0 25px 0 25px;
+}
 
 .populaires-col {
   height: 200px;
@@ -608,18 +568,26 @@ Height:100%;
 width: 35%;
 }
 
+.pright{
+  width: 50%;
+}
 
 /* Activités */
 
 #activites{
   margin: 10% 0 10% 0;
-  
+  width: 100vw;
 }
 
+#activites h2{
+  width: 25%;
+  padding: 0 0 20px 25px;
+}
 
 .cardactivites{
 display: flex;
 flex-direction: column;
+align-items: center;
 }
 
 
@@ -643,13 +611,14 @@ border-radius: 20px 20px 0 0;
 /* Footer */
 
 .footer{
-  padding: 8% 0 0 8%;
+  padding: 0;
   display: flex;
 flex-direction: column;
+width: 100vw;
 }
 
 .footer-col {
-  padding-bottom: 8%;
+  padding: 25px;
 }
 
 }
@@ -659,6 +628,11 @@ flex-direction: column;
 
 /*----------------------Tablette-----------------------------*/
 @media (min-width: 768px) and (max-width:992px){
+
+.blockfiltres{
+  flex-wrap: wrap;
+}
+
 
 /* Hébergements et recherches populaires */
 
@@ -672,27 +646,19 @@ flex-direction: column;
 
 #hebergements {
   border-radius: 20px;
-  width: 95%;
+  width: 96%;
   padding: 2%;
 }
 
 .hebtitle{
   margin-bottom: 5%;
 }
-.cardheb1{
+.cardheb{
   display: flex;
-  
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   
-  margin-bottom: 5%;
-}
-
-.cardheb2{
-  display: flex;
-  
-  justify-content: space-between;
-  align-items: center;
   margin-bottom: 5%;
 }
 
@@ -713,15 +679,16 @@ flex-direction: column;
 
 .pheb {
   padding: 5px;
+  font-size: small;
 }
 
 /* Les plus populaires */
 
 #populaires {
   border-radius: 20px;
-  width: 95%;
+  width: 100%;
   margin-top: 5%;
-  padding-bottom: 5%;
+  padding: 15px 0 15px 0;
 }
 
 
@@ -729,43 +696,42 @@ flex-direction: column;
   display: flex;
   justify-content:space-between;
   align-items: center;
-  margin-bottom: 0;
+  margin: 0 15px 0 15px;
 }
 
 .cardpop{
   display: flex;
   flex-direction: row;
-  
-  
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
 }
 
+.populaires-a{
+  display: flex;
+}
 
 .populaires-col {
   border-radius: 20px;
-  object-fit: contain;
-  height: 9rem;
   border : 3px solid white;
   background-color: white;
   box-shadow: 2px 2px  #D9D9D9;
-  width: 90%;
-  margin-bottom: 0;
+  margin: 0 15px 0 0;
   
 }
 
 .pright{
-  display: inline-block;
-  position: absolute;
-  width: 10.5rem;
-  padding: 10px 10px;
-
+  position: relative;
+  width: auto;
+  font-size: small;
 }
 
 .popicon{
-  padding-top: 30%;
+  display: flex;
+
 }
 
 .imgpopulaires{
-  display: inline-flex;
   object-fit: cover;
   Width: 37%;
 Height:144px;
@@ -775,6 +741,15 @@ Height:144px;
 
 /* Activités*/
 
+.cardactivites{
+  flex-direction: row;
+}
+
+.activites-col {
+  margin-bottom: 0;
+  width: 24%;
+  }
+
 .imgactivites{
   
   object-fit: cover;
@@ -783,5 +758,16 @@ Height:144px;
   border-radius: 20px 20px 0 0;
 }
 
+.activitename{
+  align-items: center;
+  display: flex;
+  padding: 15px;
+  font-size: small;
+}
+
+.footer-col{
+  margin-right: auto;
+  padding-right: 0;
+}
 
 }
