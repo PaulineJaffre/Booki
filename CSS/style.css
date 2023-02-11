@@ -260,6 +260,11 @@ form{
   white-space: nowrap;
 }
 
+.pheb h3{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* Les plus populaires */
 
 #populaires {
@@ -307,6 +312,14 @@ form{
   position: absolute;
   padding: 10px 10px;
   width:15%;
+}
+
+.pright h3{
+  height: 36px;
+}
+
+.pright p{
+line-height: 35px;
 }
 
 .popicon{
